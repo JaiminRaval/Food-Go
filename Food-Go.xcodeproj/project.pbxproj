@@ -99,9 +99,14 @@
 		078435C12D1B274D007B4BC4 /* Food-Go */ = {
 			isa = PBXGroup;
 			children = (
+				078435F72D1B31C4007B4BC4 /* New Group */,
+				078435F62D1B31BD007B4BC4 /* Services */,
+				078435F52D1B31B6007B4BC4 /* Helpers */,
+				078435F42D1B31A5007B4BC4 /* Models */,
+				078435F32D1B319C007B4BC4 /* Views */,
+				078435F22D1B3183007B4BC4 /* Controllers */,
 				078435C22D1B274D007B4BC4 /* AppDelegate.swift */,
 				078435C42D1B274D007B4BC4 /* SceneDelegate.swift */,
-				078435C62D1B274D007B4BC4 /* ViewController.swift */,
 				078435C82D1B274D007B4BC4 /* Main.storyboard */,
 				078435CB2D1B274F007B4BC4 /* Assets.xcassets */,
 				078435CD2D1B274F007B4BC4 /* LaunchScreen.storyboard */,
@@ -125,6 +130,49 @@
 				078435E52D1B274F007B4BC4 /* Food_GoUITestsLaunchTests.swift */,
 			);
 			path = "Food-GoUITests";
+			sourceTree = "<group>";
+		};
+		078435F22D1B3183007B4BC4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				078435C62D1B274D007B4BC4 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		078435F32D1B319C007B4BC4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		078435F42D1B31A5007B4BC4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		078435F52D1B31B6007B4BC4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		078435F62D1B31BD007B4BC4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		078435F72D1B31C4007B4BC4 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
